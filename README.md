@@ -1,2 +1,26 @@
 # Maple_LCM
-The solver won the SAT Competition 2017 and presented in "An Effective Learnt Clause Minimization Approach for CDCL SAT Solvers" (IJCAI2017)
+================================================================================
+DIRECTORY OVERVIEW:
+
+mtl/            Mini Template Library
+utils/          Generic helper code (I/O, Parsing, CPU-time, etc)
+core/           A core version of the solver
+simp/           An extended solver with simplification capabilities
+README
+LICENSE
+
+================================================================================
+BUILDING: (release version: without assertions, statically linked, etc)
+
+export MROOT=<minisat-dir>              (or setenv in cshell)
+cd { core | simp }
+make clean
+make
+
+================================================================================
+EXAMPLES:
+
+Run minisat with same heuristics as version 2.0:
+
+./glucose ../Nb5T14.cnf
+
