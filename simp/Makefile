@@ -1,4 +1,4 @@
-EXEC      = glucose
+EXEC      = Maple_LCM
 DEPDIR    = mtl utils core
 MROOT = $(PWD)/..
 
