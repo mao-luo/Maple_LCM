@@ -20,7 +20,5 @@ make
 ================================================================================
 EXAMPLES:
 
-Run minisat with same heuristics as version 2.0:
-
 ./glucose ../Nb5T14.cnf
 
